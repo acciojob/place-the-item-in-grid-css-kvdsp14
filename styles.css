@@ -1,6 +1,10 @@
-/* Your CSS Code here. */
 .holder{
 	display:grid;
-	grid-template-columns: repeat(2, 200px);
-	grid-template-rows: repeat(2, 200px);
+	grid-template-columns: repeat(2, 100px);
+	grid-template-rows: repeat(2, 100px);
+    width: max(200px);
+    height: max(200px);
 }
+/* div{
+	background-color: green;
+} */
